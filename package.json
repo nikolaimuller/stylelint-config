@@ -1,6 +1,6 @@
 {
   "name": "@mullerstd/stylelint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "stylelint config by mullerstd",
   "main": ".stylelintrc.json",
   "author": "Nick <nikolaymuller@gmail.com>",
@@ -15,9 +15,7 @@
   "dependencies": {
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-standard": "^22.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.19.0"
   },
