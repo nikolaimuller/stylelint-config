@@ -2,7 +2,7 @@
   "name": "@mullerstd/stylelint-config",
   "version": "1.0.0",
   "description": "stylelint config by mullerstd",
-  "main": "index.js",
+  "main": ".stylelintrc.json",
   "author": "Nick <nikolaymuller@gmail.com>",
   "license": "MIT",
   "files": [
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@mullerstd/eslint-config": "^1.3.0",
     "eslint": "^7.25.0",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "stylelint": "^13.13.0"
   }
 }
