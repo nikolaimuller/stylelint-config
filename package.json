@@ -1,6 +1,6 @@
 {
   "name": "@mullerstd/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stylelint config by mullerstd",
   "main": ".stylelintrc.json",
   "author": "Nick <nikolaymuller@gmail.com>",
