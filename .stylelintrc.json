@@ -7,16 +7,23 @@
   "plugins": ["stylelint-scss", "stylelint-order"],
   "rules": {
     "at-rule-no-unknown": null,
-    "scss/at-rule-no-unknown": [true],
+    "value-keyword-case": null,
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
+      }
+    ],
     "color-named": "never",
     "color-hex-length": "long",
-    "function-disallowed-list": ["rgb", "hsl"],
+    "function-disallowed-list": ["rgb"],
     "declaration-block-no-duplicate-properties": [
       true,
       {
         "ignore": ["consecutive-duplicates-with-different-values"]
       }
     ],
+    "custom-property-empty-line-before": null,
     "declaration-empty-line-before": null,
     "declaration-property-unit-allowed-list": {
       "/^border(?!.*-radius$)/": ["px", "%"],
@@ -32,13 +39,6 @@
     "no-duplicate-selectors": true,
     "scss/dollar-variable-pattern": "^[a-z\\d](?:[a-z\\d]|-(?=[a-z\\d]))*$",
     "scss/selector-no-redundant-nesting-selector": true,
-    "selector-max-compound-selectors": [
-      1,
-      {
-        "message": "Descendent selectors break encapsulation and are bad for performance. Please try using BEM class names instead and nesting/combining them with &",
-        "severity": "warning"
-      }
-    ],
     "selector-max-id": [0],
     "string-quotes": "single",
     "value-no-vendor-prefix": true,
@@ -49,6 +49,13 @@
       {
         "ignorePseudoClasses": ["global"]
       }
-    ]
+    ],
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": ["composes"]
+      }
+    ],
+    "declaration-block-trailing-semicolon": null
   }
 }
