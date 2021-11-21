@@ -1,8 +1,8 @@
 {
   "name": "@mullerstd/stylelint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "stylelint config by mullerstd",
-  "main": ".stylelintrc.json",
+  "main": "stylelint.config.js",
   "author": "Nick <nikolaymuller@gmail.com>",
   "license": "MIT",
   "files": [
@@ -14,10 +14,10 @@
   "prettier": "@mullerstd/prettier-config",
   "dependencies": {
     "stylelint-config-idiomatic-order": "^8.1.0",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^24.0.0",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-prettier": "^2.0.0"
   },
   "devDependencies": {
     "@mullerstd/prettier-config": "^1.0.2",
