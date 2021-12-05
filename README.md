@@ -3,27 +3,37 @@ Stylelint config by mullerstd
 ### Includes
 
 - `stylelint-config-standard`
-- `stylelint-prettier` and `stylelint-config-prettier`
-- `stylelint-order` and `stylelint-config-idiomatic-order`
+- `stylelint-prettier` with `stylelint-config-prettier`
+- `stylelint-order` with `stylelint-config-idiomatic-order`
 
 ## Install
 
+Using yarn:
+
 ```bash
 yarn add -D @mullerstd/stylelint-config
+```
 
-// or using npm
+Or using npm:
 
+```bash
 npm i @mullerstd/stylelint-config --save-dev
 ```
 
 ## Usage
 
-```json
-// package.json
+Base config:
 
+```json
 {
-  "stylelint": {
-    "extends": "@mullerstd/stylelint-config"
-  }
+  "extends": "@mullerstd/stylelint-config"
+}
+```
+
+For tailwind project:
+
+```json
+{
+  "extends": ["@mullerstd/stylelint-config", "@mullerstd/stylelint-config/tailwindcss"]
 }
 ```

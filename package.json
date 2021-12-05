@@ -1,15 +1,23 @@
 {
   "name": "@mullerstd/stylelint-config",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "stylelint config by mullerstd",
-  "main": "stylelint.config.js",
+  "main": "./index.js",
   "author": "Nick <nikolaymuller@gmail.com>",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "configs"
   ],
+  "exports": {
+    ".": "./configs/base.js",
+    "./tailwindcss": "./configs/tailwindcss.js"
+  },
   "scripts": {
-    "prettier": "prettier --write '**/*.{js,ts,tsx,json,md}'"
+    "prettier": "prettier --write '**/*.{js,json,md}'",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "prettier": "@mullerstd/prettier-config",
   "dependencies": {
@@ -21,10 +29,12 @@
   },
   "devDependencies": {
     "@mullerstd/prettier-config": "^1.0.2",
-    "husky": "^6.0.0",
+    "husky": "^7.0.0",
+    "pinst": "^2.0.0",
     "prettier": "^2.2.1"
   },
   "peerDependencies": {
     "stylelint": ">= 13"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
