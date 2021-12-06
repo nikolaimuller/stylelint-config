@@ -14,10 +14,7 @@
     "./tailwindcss": "./configs/tailwindcss.js"
   },
   "scripts": {
-    "prettier": "prettier --write '**/*.{js,json,md}'",
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "prettier": "prettier --write '**/*.{js,json,md}'"
   },
   "prettier": "@mullerstd/prettier-config",
   "dependencies": {
@@ -29,8 +26,6 @@
   },
   "devDependencies": {
     "@mullerstd/prettier-config": "^1.0.2",
-    "husky": "^7.0.0",
-    "pinst": "^2.0.0",
     "prettier": "^2.2.1"
   },
   "peerDependencies": {

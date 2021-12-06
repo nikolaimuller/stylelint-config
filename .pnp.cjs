@@ -36,8 +36,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@mullerstd/prettier-config", "npm:1.0.2"],
-            ["husky", "npm:7.0.4"],
-            ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.5.1"],
             ["stylelint-config-idiomatic-order", "virtual:fc06babf1a02fb388fdae47f4a24e1aaeef910e56445d3bd481543fdfc3946a2ca657a801fc7c199e51ea8e3a3bdafb4826c39eafb09bf0b2c47cb93f9292e86#npm:8.1.0"],
             ["stylelint-config-prettier", "virtual:fc06babf1a02fb388fdae47f4a24e1aaeef910e56445d3bd481543fdfc3946a2ca657a801fc7c199e51ea8e3a3bdafb4826c39eafb09bf0b2c47cb93f9292e86#npm:9.0.3"],
@@ -63,8 +61,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@mullerstd/stylelint-config", "workspace:."],
             ["@mullerstd/prettier-config", "npm:1.0.2"],
-            ["husky", "npm:7.0.4"],
-            ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.5.1"],
             ["stylelint-config-idiomatic-order", "virtual:fc06babf1a02fb388fdae47f4a24e1aaeef910e56445d3bd481543fdfc3946a2ca657a801fc7c199e51ea8e3a3bdafb4826c39eafb09bf0b2c47cb93f9292e86#npm:8.1.0"],
             ["stylelint-config-prettier", "virtual:fc06babf1a02fb388fdae47f4a24e1aaeef910e56445d3bd481543fdfc3946a2ca657a801fc7c199e51ea8e3a3bdafb4826c39eafb09bf0b2c47cb93f9292e86#npm:9.0.3"],
@@ -84,24 +80,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["fromentries", [
-        ["npm:1.3.2", {
-          "packageLocation": "./.yarn/cache/fromentries-npm-1.3.2-f5392090b8-33729c529c.zip/node_modules/fromentries/",
-          "packageDependencies": [
-            ["fromentries", "npm:1.3.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["husky", [
-        ["npm:7.0.4", {
-          "packageLocation": "./.yarn/cache/husky-npm-7.0.4-917ba035c6-c6ec4af63d.zip/node_modules/husky/",
-          "packageDependencies": [
-            ["husky", "npm:7.0.4"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["lodash", [
         ["npm:4.17.21", {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",
@@ -116,16 +94,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/picocolors-npm-0.2.1-fa0e648c44-3b0f441f00.zip/node_modules/picocolors/",
           "packageDependencies": [
             ["picocolors", "npm:0.2.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["pinst", [
-        ["npm:2.1.6", {
-          "packageLocation": "./.yarn/cache/pinst-npm-2.1.6-750cbdedeb-3644c352a7.zip/node_modules/pinst/",
-          "packageDependencies": [
-            ["pinst", "npm:2.1.6"],
-            ["fromentries", "npm:1.3.2"]
           ],
           "linkType": "HARD",
         }]
