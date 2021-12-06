@@ -1,6 +1,6 @@
 {
   "name": "@mullerstd/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "stylelint config by mullerstd",
   "main": "./index.js",
   "author": "Nick <nikolaymuller@gmail.com>",
